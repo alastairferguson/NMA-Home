@@ -1,0 +1,77 @@
+body {
+	width: 960px;
+	height: 679px;
+	background: white;
+	font-family: "Avenir Lt Std", sans-serif;
+}
+
+#canvas {
+	position: absolute;
+	left: 2.5%;
+	top: 2.5%;
+	width: 95%;
+	height: 95%;
+	background: url(../img/canvas_960.png) no-repeat;
+	background-color: #749e92;
+}
+
+#leftside {
+	position: relative;
+	left: 5%;
+	top: 15%;
+	width: 480px;
+}
+
+h1 {
+	background:  url(../img/logo_480.png) no-repeat;
+	text-indent:  -9999px;
+	width: 480px;
+	height: 192px;
+	opacity: 0.8;
+}
+
+h3 {
+	font-size: 0.9em;	
+}
+
+ul a {
+	text-decoration: none;
+	color: #666;
+}
+
+.nav li{
+	display: inline;
+	float: left;
+	padding-top: 20px;
+}
+
+.nav li:last-child {
+	float: right;
+}
+
+.nav a {
+	padding: 5px 10px;
+	background: none;
+	
+	-webkit-transition: background 0.3s ease 0.1s, color 1s ease;
+	-moz-transition: background 0.3s ease 0.1s, color 0.2s ease;
+	-o-transition: background 0.3s ease 0.1s, color 0.2s ease;
+	transition: background 0.3s ease 0.1s, color 0.2s ease;	
+}
+
+.nav a:hover,
+.nav a:focus {
+	background: black;
+	color: white;
+}
+
+#blurb {
+	margin-left: 10px;
+	padding-top: 32px;
+	width: 130%;
+	float: left;
+	color: white;
+	opacity: 0.8;
+	font-weight: 100;
+	line-height: 1.2em;	
+}
