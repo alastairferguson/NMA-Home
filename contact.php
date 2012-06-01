@@ -1,14 +1,12 @@
 <?php include 'tmpl/header.php'; ?>
 	
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut alquip ex ea commodo
-		consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-		eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-		veniam, quis nostrud exercitation ullamco laboris nisi ut alquip ex ea
-		commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-		sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-		ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut alquip ex
-		ea commodo consequat.</p>
+	<p id="blurb">	Alastair Ferguson   |   Director</br></br>
+					m: 07988 853971</br>
+					e: <a
+					href="mailto:alastair@newmodelarchitecture.com">Alastair@
+					Newmodelarchitecture.com</a></p>
+	
+	<p id="goHome"><a href="index.php">Home -></a></p>
+		
 				
 <?php @ include 'tmpl/footer.php'; ?>
